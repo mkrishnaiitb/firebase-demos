@@ -1,9 +1,12 @@
+import AuthProvider from "./AuthProvider"
 import HomePage from "./HomePage"
 
 function App() {
   return (
     <>
-      <HomePage />
+      <AuthProvider>
+        <HomePage />
+      </AuthProvider>
     </>
   )
 }

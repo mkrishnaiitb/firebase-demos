@@ -1,5 +1,8 @@
+import { getAuth } from "./AuthProvider";
+
 function HomePage() {
-    return(<div>Home Page</div>);
+    const {UserName, UserId} = getAuth();
+    return(<div>Home Page {UserName} {UserId} </div>);
 }
 
 export default HomePage;
