@@ -1,0 +1,23 @@
+{
+  "name": "firebase-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkrishnaiitb/firebase-demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkrishnaiitb/firebase-demos/issues"
+  },
+  "homepage": "https://github.com/mkrishnaiitb/firebase-demos#readme",
+  "devDependencies": {
+    "firebase-tools": "^12.0.0"
+  }
+}
