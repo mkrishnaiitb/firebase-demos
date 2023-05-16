@@ -1,7 +1,9 @@
+import HomePage from "./HomePage"
+
 function App() {
   return (
     <>
-      <div>Empty Page</div>
+      <HomePage />
     </>
   )
 }
