@@ -1,8 +1,15 @@
-import { getAuth } from "./AuthProvider";
+import { useAuth } from "./AuthProvider";
 
 function HomePage() {
-    const {UserName, UserId} = getAuth();
-    return(<div>Home Page {UserName} {UserId} </div>);
+    const {currentUser, signInTheUser, signOutTheUser} = useAuth();
+    return(
+        <div>
+            <div>Home Page {currentUser && currentUser.displayName} </div>
+            
+            <button onClick={signInTheUser}>SignIn</button>
+            <button onClick={signOutTheUser}>SignOut</button>
+        </div>
+    );
 }
 
 export default HomePage;
